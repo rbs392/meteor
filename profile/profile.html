@@ -1,0 +1,112 @@
+<!--
+	Thing to keep in mind
+	seo
+	meta viewport
+	responsive
+	animation
+	html5
+
+-->
+
+<head>
+  <title>I'm Bala</title>
+</head>
+
+<body class="container-fluid">
+	<section class="row header-wrapper">
+		{{> header}}
+	</section>
+
+	<article class="row content-wrapper">
+		<section  class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-justify content">
+			<p id="am">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<p id="do">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<p id="want">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<p id="exist">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+
+			<p id="say">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+		<aside class="col-lg-3 col-md-3 col-sm-3 col-xs-3 navigation">
+			{{> nav}}
+		</aside>
+	</article>
+
+</body>
+
+
+<!-- templates -->
+
+
+<template name="nav">
+	<nav>
+		<ul class="list-unstyled">
+			{{#each navList}}
+				<li class="nav-item"><a href=""></a>{{nav}}</li>
+			{{/each}}
+		</ul>
+	</nav>
+</template>
+
+
+<template name="header">
+  <header class="row">
+  	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+  		<div class="header-content text-right">
+		  	<h1>Balasubramaniyan. R</h1>
+		  	<h3>Software developer, Electrical engineer</h3>
+  		</div>
+	</div>
+	<div class="header-badge col-lg-4 col-md-4 col-sm-4 col-xs-4">
+		<div class="badge-image">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="250px" height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve">
+			<polygon fill="#FFCC7B" stroke="#000000" stroke-miterlimit="10" points="85.614,245.5 23.114,200.137 -0.759,126.687 
+				23.114,53.061 85.614,7.5 162.868,7.5 225.368,53.072 249.24,126.627 225.368,200.097 162.868,245.5 "/>
+			</svg>
+
+
+		</div>
+	</div>
+  </header>
+</template>
+
+

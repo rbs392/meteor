@@ -1,0 +1,56 @@
+/* CSS declarations go here */
+body{
+	background 			:	url('/bg.png') repeat;
+}
+
+.container-fluid .header-wrapper{
+	position 			: 	fixed;
+	height 				: 	200px;
+	top 				: 	0px;
+	width 				: 	100%;
+	background-color	:	#444444;
+	z-index 			: 	99;
+	opacity 			:  	0.9;
+}
+
+.container-fluid .header-wrapper .header-badge{
+	position			: 	relative; 
+}
+
+.container-fluid .header-wrapper .badge-image{
+	position 			: absolute;
+	right 				: 50px;  
+}
+
+.container-fluid .header-content{
+	color 		 		: 	#FFFFFF;
+	padding 			:  	30px 0px;
+}
+
+.container-fluid .content-wrapper{
+	margin-top 			: 	250px;
+	color 				: 	#FFFFFF;
+	font-size 			: 	18px;
+}
+
+.container-fluid .content-wrapper .content{
+	padding-top 		: 30px;
+	padding-bottom 		: 30px;
+}
+
+.container-fluid .content-wrapper .content p{
+	border-bottom 		: 1px solid #FFFFFF;
+	padding-bottom 		: 20px;  
+}
+
+.container-fluid .content-wrapper .navigation nav{
+	position 			: 	fixed;
+	top 				: 	300px;
+	right 				: 	50px;
+}
+
+.container-fluid .content-wrapper .navigation nav .nav-item{
+	cursor 				: 	pointer;
+	padding 	 		: 	10px 0px;
+	border-bottom 		: 	1px solid #FFFFFF;
+}
